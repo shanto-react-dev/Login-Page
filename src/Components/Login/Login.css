@@ -1,0 +1,82 @@
+/*   Login CSS Start   */
+
+.login {
+    @apply pt-[108px] pb-[109px]
+}
+.login-area {
+    @apply flex justify-between items-center
+}
+.login-part h3 {
+    @apply font-overpass text-[36px] font-extrabold leading-normal tracking-[1.6px] text-black 
+}
+.login-part p {
+    @apply font-nunito font-normal tracking-[1.6px] text-[24px] text-black mt-[21px] leading-normal mb-[64px]
+}
+.login-part a {
+    @apply text-blue
+}
+.login-part a:hover {
+    @apply underline
+}
+.login-input .login-input-1 p {
+    @apply font-nunito font-semibold text-[28px] leading-normal tracking-[1.6px] text-black mb-[16px]
+}
+.login-input .login-input-1 .red {
+    @apply text-red-500 font-medium font-nunito text-xl my-0 text-end
+}
+.login-input .login-input-1 input {
+    @apply border-blue-1 border-[2px] rounded-[80px] py-[24px] pl-[32px] pr-[323px] font-nunito font-normal text-[24px] leading-normal tracking-[1.6px] text-blue-2 mb-[20px]
+}
+.login-input .login-input-1 input:focus {
+    @apply outline-none
+}
+.login-input .login-input-2 p {
+    @apply font-nunito font-semibold text-[28px] leading-normal tracking-[1.6px] text-black mb-[16px]
+}
+.login-input .login-input-2 .red {
+    @apply text-red-500 font-medium font-nunito text-xl my-0 text-end
+}
+.login-input .login-input-2 input {
+    @apply border-blue-1 border-[2px] rounded-[80px] py-[24px] pl-[32px] pr-[323px] font-nunito font-normal text-[24px] leading-normal tracking-[1.6px] text-blue-2 mb-[20px]
+}
+.login-input .login-input-2 input:focus {
+    @apply outline-none
+}
+.login-input .login-icon {
+    @apply relative
+}
+.login-input .login-icon .icon {
+    @apply absolute right-[32px] top-[30px] text-[24px] text-[#9EB0EA]
+}
+.login-forget-password a {
+    @apply font-nunito font-semibold text-[20px] leading-normal tracking-[1.6px] text-blue flex justify-end
+}
+.login-forget-password a:hover {
+    @apply underline
+}
+.login-button button {
+    @apply w-[640px] font-nunito font-extrabold text-[28px] leading-normal tracking-[1.6px] text-white pt-[24px] pb-[18px] flex justify-center items-center bg-blue rounded-[80px] mt-[55px] mb-[36px]
+}
+.login-button a:hover {
+    @apply no-underline
+}
+.login-text-2 {
+    @apply flex justify-center items-center mb-[16px]
+}
+.login-text-2 .line-1 {
+    @apply w-[150px] h-[2px] bg-blue-2
+}
+.login-text-2 p {
+    @apply font-nunito font-normal text-[20px] leading-normal tracking-[1.6px] text-black my-0 mx-[10px]
+}
+.login-text-2 .line-2 {
+    @apply w-[150px] h-[2px] bg-blue-2 flex
+}
+.login-icons {
+    @apply flex gap-[60px] justify-center
+}
+.login-icons .icons {
+    @apply px-[35px] py-[15px] border-[2px] border-blue-1 flex justify-center items-center text-[50px] rounded-[8px] cursor-pointer
+}
+
+/*   Login CSS End   */
