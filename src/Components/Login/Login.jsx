@@ -81,18 +81,18 @@ const Login = () => {
                             </div>
                             <div className="login-icons">
                                 <div className="icons">
-                                    <img src="../public/google.png" alt="icons" />
+                                    <img src="/google.png" alt="icons" />
                                 </div>
                                 <div className="icons">
-                                    <img src="../public/facebook.png" alt="icons" />
+                                    <img src="/facebook.png" alt="icons" />
                                 </div>
                                 <div className="icons">
-                                    <img src="../public/apple.png" alt="icons" />
+                                    <img src="/apple.png" alt="icons" />
                                 </div>
                             </div>
                         </div>
                         <div className="login-img">
-                            <img src="../public/Image.png" alt="login img" />
+                            <img src="/Image.png" alt="login img" />
                         </div>
                     </div>
                 </div>
